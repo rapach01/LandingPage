@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(./assets/background.png);
+    font-size: 100%;
+    min-height: 100vh;
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+}
+.item{
+    color: white;
+}
+.logo_cabecalho{
+    height: 10%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap: 50px;
+}
+.cabecalho_item{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.main{
+    margin-bottom: 46px;
+    border-top: 0.4px solid white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.main_section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.text_init{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+.description_title{
+    font-family: 'Righteous', cursive;
+    font-size: 34px;
+    font-weight: 200;
+    color: white;
+}
+
+.button_download{
+    background-color: #ffffff;
+    width: 260px;
+    height: 80px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+.button_download:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.rodape {
+    border-top: 0.4px solid #ffffff;
+    padding-top: 80px;
+
+}
+.contact_git{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 40%;
+    width: 150px;
+    height: 40px;
+}
+.contact_git:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.contact_link:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.contact_link{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 40%;
+    width: 150px;
+    height: 40px;
+}
